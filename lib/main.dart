@@ -23,7 +23,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String url = 'http://scuola.weably.net/posizioni.php';
+  String url = 'http://yourwebsite/posizioni.php'; //deactive SSL on your website or create a direct link
 
   Future<String> makeRequest() async {
     var response = await http.post(
